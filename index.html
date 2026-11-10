@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Developer portfolio — full-stack web development, cloud and IoT projects." />
+    <title>Zinlin Htet | Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Zinlin Htet<span class="accent">.</span></h1>
+          <p class="hero-subtitle">Aspiring Full-Stack Developer</p>
+          <p class="hero-description">
+            I build web applications, REST APIs, and connected IoT projects. My work
+            spans React, Java &amp; Spring Boot, PHP &amp; Laravel, databases, and cloud deployment.
+          </p>
+          <div class="buttons">
+            <a class="btn primary" href="#projects">Explore My Projects</a>
+            <a class="btn" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <img class="photo" src="me.jpeg" alt="Portrait of Zinlin Htet" width="1280" height="720" />
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <p class="eyebrow">Who I Am</p>
+          <h2>About Me</h2>
+          <p class="section-intro">
+            I'm a developer focused on learning by building. I enjoy connecting polished
+            frontends to reliable backend services, experimenting with microcontrollers,
+            and understanding how applications are deployed and operated in the cloud.
+            I'm growing my skills in modern full-stack development.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container">
+          <p class="eyebrow">My Toolkit</p>
+          <h2>Technical Skills</h2>
+          <p class="section-intro">Technologies I've worked with or am actively learning.</p>
+          <div class="grid">
+            <article class="card">
+              <h3>Frontend</h3>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+                <span class="tag">Vite</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Backend &amp; Data</h3>
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">PHP</span>
+                <span class="tag">Laravel</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">MariaDB</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Tools &amp; Hardware</h3>
+              <div class="tags">
+                <span class="tag">Git</span>
+                <span class="tag">Docker</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Railway</span>
+                <span class="tag">Arduino</span>
+                <span class="tag">ESP32</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Featured Projects</h2>
+          <p class="section-intro">A few hands-on projects from my development journey.</p>
+          <div class="grid">
+            <article class="card">
+              <p class="project-index">PROJECT 01</p>
+              <h3>School Voting System</h3>
+              <p>A school king-and-queen voting application with a React frontend and Spring Boot APIs, designed around one-vote-per-student validation.</p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">MySQL</span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="project-index">PROJECT 02</p>
+              <h3>Smart IoT Door Lock</h3>
+              <p>An ESP32-powered door lock prototype using a servo, motion and distance sensors, and a Spring Boot web dashboard for monitoring and control.</p>
+              <div class="tags">
+                <span class="tag">ESP32</span>
+                <span class="tag">Java</span>
+                <span class="tag">IoT</span>
+              </div>
+            </article>
+            <article class="card">
+              <p class="project-index">PROJECT 03</p>
+              <h3>Autonomous Robot Car</h3>
+              <p>An Arduino-based car with Bluetooth controls, ultrasonic obstacle detection, servo scanning, and motor control logic.</p>
+              <div class="tags">
+                <span class="tag">Arduino</span>
+                <span class="tag">C++</span>
+                <span class="tag">Bluetooth</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <p class="eyebrow">Let's Connect</p>
+          <h2>Get in Touch</h2>
+          <p>Interested in collaborating or discussing a project? Add your preferred contact details here.</p>
+          <div class="buttons">
+            <a class="btn primary" href="mailto:www.zinlinhtet969@gmail.com">Email Me</a>
+            <a class="btn" href="https://github.com/ThomasLynn4456" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>© <span id="year"></span> Zinlin Htet. Built with HTML &amp; CSS.</footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
